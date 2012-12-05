@@ -1,10 +1,13 @@
 
-public class RomanNumerals {
+public class RomanNumerals 
+{
 
-	public String toRoman(int nmber) {
-		if (nmber == 1)
-			return "I";
-		return "II";
+	public String toRoman(int nmber) 
+	{
+		String num = "";
+		for(int i=0;i<nmber;i++)
+			num+='I';
+		return num;
 	}
 
 }
