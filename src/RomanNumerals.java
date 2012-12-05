@@ -13,6 +13,10 @@ public class RomanNumerals
 				num="IV";
 			if (i==5)
 				num="V";
+			if (i==9)
+				num="IX";
+			if (i==10)
+				num="X";
 		}
 		
 		return num;

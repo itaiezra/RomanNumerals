@@ -20,8 +20,11 @@ public class RomanNumeralUnitTests
 		assertEquals("VII", number.toRoman(7));
 		assertEquals("VIII", number.toRoman(8));
 		assertEquals("IX", number.toRoman(9));
-	//	assertEquals("X", number.toRoman(10));
-	//	assertEquals("XI", number.toRoman(11));
+		assertEquals("X", number.toRoman(10));
+		assertEquals("XI", number.toRoman(11));
+		assertEquals("XII", number.toRoman(12));
+		assertEquals("XIII", number.toRoman(13));
+		//assertEquals("XIV", number.toRoman(14));
 	}
 	
 
