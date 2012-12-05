@@ -5,11 +5,16 @@ public class RomanNumerals
 	public String toRoman(int nmber) 
 	{
 		String num = "";
-		if (nmber<4)
-		for(int i=0;i<nmber;i++)
+		
+		for(int i=1;i<=nmber;i++)
+		{
 			num+='I';
-		else 
-			num = "IV";
+			if (i==4)
+				num="IV";
+			if (i==5)
+				num="V";
+		}
+		
 		return num;
 	}
 
